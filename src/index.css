@@ -1,13 +1,143 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap') ;
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar h1 {
+  color:#f51414;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 2px solid #0c0c0c;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color:dodgerblue;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px #f2f2f2;
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #f51414  ;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+
+.create {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.create label {
+  text-align: left;
+  display: block;
+}
+
+.create h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #f51414;
+}
+
+.create input , .create textarea , .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0 ;
+  border: 1px solid #ddd ;
+  box-sizing: border-box;
+  display: block;
+}
+
+.create button {
+  background: #f51414;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.notFound h2{
+  text-align: center;
+  color: #f1356d ;
+  font-size: 30px ;
+  margin-bottom: 10px;
+}
+
+.notFound p{
+  text-align: center;
+  color: #f1356d ;
+  font-size: 20px ;
+  margin-bottom: 10px;
+}
+
+.notFound a{
+  position: relative;
+  top: 25px;
+  left: 35%;
+  color: blue;
 }

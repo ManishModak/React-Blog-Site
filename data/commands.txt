@@ -1,0 +1,11 @@
+creatng React App - Go to dir before creating using cd
+npx create-react-app appname
+
+run the script local development server to preview script
+npm run start 
+
+Starting Json Server
+npx json-server --watch data/db.json --port 8000
+
+install router dependency
+npm install react-router-dom@6 
